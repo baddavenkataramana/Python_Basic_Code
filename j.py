@@ -1,0 +1,5 @@
+n=list(map(int,input("enterb the list").split()))
+n.insert(4,7)
+print(n)
+n.set()
+print(n)
