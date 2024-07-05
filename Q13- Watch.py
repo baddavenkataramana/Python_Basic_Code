@@ -1,0 +1,9 @@
+s=int(input())
+min1=s//3600
+hrs1=s//3600
+hrsmin=hrs1*60
+hrssec=hrsmin*60
+v=s-hrssec
+minv=v//60
+h=s-hrssec-(minv*60)
+print(hrs1,':',minv,':',h)
